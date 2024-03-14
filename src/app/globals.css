@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @media screen and (min-width: 1024px) {
-  .bookmark-bg-hero {
+  .bg-hero {
     width: 2000px;
     height: 300px;
     left: 30%;
