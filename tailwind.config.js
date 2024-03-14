@@ -23,7 +23,7 @@ module.exports = {
         sans: ['Rubik', 'sans-serif'],
       },
       backgroundImage: () => ({
-        dots: "url('/bookmark-web-app/images/bg-dots.svg')",
+        'bookmark-dots': "url('/bookmark-web-app/images/bg-dots.svg')",
       }),
     },
   },
