@@ -1,10 +1,10 @@
 'use client';
 import { useState } from 'react';
-import DesktopMenu from '../DesktopMenu';
-import HamburgerButton from '../HamburgerButton';
-import MobileMenuItems from '../MobileMenuItems';
-import MobileLogo from '../MobileLogo';
-import DesktopLogo from '../DesktopLogo';
+import DesktopMenu from './DesktopMenu';
+import HamburgerButton from './HamburgerButton';
+import MobileMenu from './MobileMenu';
+import MobileLogo from './MobileLogo';
+import DesktopLogo from './DesktopLogo';
 
 const NavBar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -30,7 +30,7 @@ const NavBar = () => {
         />
       </div>
       {/* Mobile Menu */}
-      <MobileMenuItems
+      <MobileMenu
         onClickToggleMobileMenu={onClickToggleMobileMenu}
         isMobileMenuOpen={isMobileMenuOpen}
       />
