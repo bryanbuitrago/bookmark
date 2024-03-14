@@ -2,7 +2,7 @@ import Image from 'next/image';
 const MobileLogo = () => {
   return (
     <Image
-      src='/bookmark-web-app/images/logo-bookmark-footer.svg'
+      src='/images/logo-bookmark-footer.svg'
       id='logo'
       alt='logo'
       width={120}
