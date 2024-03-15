@@ -1,5 +1,7 @@
 import DownloadBoxesSection from '@/components/download/DownloadBoxesSection';
 import DownloadHeadingSection from '@/components/download/DownloadHeadingSection';
+import FaqAccordionSection from '@/components/faq/FaqAccordionSection';
+import FaqHeadingSection from '@/components/faq/FaqHeadingSection';
 import FeaturesHeadingSection from '@/components/features/FeaturesHeadingSection';
 import FeaturesSection from '@/components/features/FeaturesSection';
 import HeroSection from '@/components/hero/HeroSection';
@@ -13,6 +15,8 @@ export default function Home() {
       <FeaturesSection />
       <DownloadHeadingSection />
       <DownloadBoxesSection />
+      <FaqHeadingSection />
+      <FaqAccordionSection />
     </main>
   );
 }
