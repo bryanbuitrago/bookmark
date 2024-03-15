@@ -5,7 +5,7 @@ const DesktopMenu = () => {
       <Link className='tracking-widest hover:text-softRed' href='#features'>
         Features
       </Link>
-      <Link className='tracking-widest hover:text-softRed' href='#donwload'>
+      <Link className='tracking-widest hover:text-softRed' href='#download'>
         Download
       </Link>
       <Link className='tracking-widest hover:text-softRed' href='#faq'>
