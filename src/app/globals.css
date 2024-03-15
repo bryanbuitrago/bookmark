@@ -18,13 +18,13 @@
   }
 }
 
-.bookmark-ficon:hover {
+.ficon:hover {
   filter: invert(53%) sepia(38%) saturate(3303%) hue-rotate(326deg)
     brightness(101%) contrast(96%);
 }
 
 /* === Bookmark Hamburger Menu === */
-.bookmark-hamburger {
+.hamburger {
   cursor: pointer;
   width: 24px;
   height: 24px;
@@ -32,9 +32,9 @@
   position: relative;
 }
 
-.bookmark-hamburger-top,
-.bookmark-hamburger-middle,
-.bookmark-hamburger-bottom {
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
   position: absolute;
   width: 24px;
   height: 3px;
@@ -45,11 +45,11 @@
   transition: all 0.5s;
 }
 
-.bookmark-hamburger-middle {
+.hamburger-middle {
   transform: translateY(7px);
 }
 
-.bookmark-hamburger-bottom {
+.hamburger-bottom {
   transform: translateY(14px);
 }
 
@@ -61,16 +61,16 @@
   right: 25px;
 }
 
-.bookmark-animate-hamburger-top {
+.animate-hamburger-top {
   transform: rotate(45deg) translateY(6px) translateX(6px);
   background-color: #fff;
 }
 
-.bookmark-hide-hamburger-middle {
+.hide-hamburger-middle {
   display: none;
 }
 
-.bookmark-animate-hamburger-bottom {
+.animate-hamburger-bottom {
   transform: rotate(-45deg) translateY(6px) translateX(-6px);
   background-color: #fff;
 }
