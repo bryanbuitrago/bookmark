@@ -1,5 +1,5 @@
 import FooterLogoAndMenu from './FooterLogoAndMenu';
-import FotterSocialMediaIcons from './FotterSocialMediaIcons';
+import FooterSocialMediaIcons from './FooterSocialMediaIcons';
 
 const Footer = () => {
   return (
@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
         {/* Social Media Icons Container */}
         <div className='flex space-x-10'>
-          <FotterSocialMediaIcons />
+          <FooterSocialMediaIcons />
         </div>
       </div>
     </footer>
