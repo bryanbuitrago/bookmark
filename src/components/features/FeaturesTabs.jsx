@@ -1,4 +1,4 @@
-import { TABS_DATA } from './data';
+import { TABS_DATA } from './featuresData';
 
 // Color Highlight the active tab bottom border
 const highlightTab = (tabID) =>
