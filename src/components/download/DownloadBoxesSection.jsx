@@ -3,7 +3,7 @@ import { BOXES_DATA } from './data';
 
 const DownloadBoxesSection = () => {
   return (
-    <section id='download' className='py-32'>
+    <section id='download-boxes' className='py-32'>
       {/* <<==== Boxes Container ====>> */}
       <div className='container flex flex-col items-center max-w-5xl mx-auto space-y-10 px-20 md:flex-row md:px-6 md:space-y-0 md:space-x-7'>
         {BOXES_DATA.map(
