@@ -1,5 +1,5 @@
 import DownloadBox from './DownloadBox';
-import { BOXES_DATA } from './data';
+import { BOXES_DATA } from './boxesData';
 
 const DownloadBoxesSection = () => {
   return (
