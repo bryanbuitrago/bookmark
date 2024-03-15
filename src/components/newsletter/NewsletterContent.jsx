@@ -5,7 +5,7 @@ const NewsletterContent = () => {
         35,000+ Already Joined
       </p>
       <h2 className='px-3 mb-6 text-3xl font-semibold text-center text-white md:text-4xl'>
-        Stay up-to-date with what we're doing
+        Stay up-to-date with what we&apos;re doing
       </h2>
     </>
   );

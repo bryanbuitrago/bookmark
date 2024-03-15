@@ -6,8 +6,8 @@ const DownloadHeadingSection = () => {
           Download the extension
         </h2>
         <p className='max-w-lg mx-auto text-center text-grayishBlue'>
-          We've got more browsers in the pipeline. Please do let us know if
-          you've got a favourite you'd like us to prioritize.
+          We&apos;ve got more browsers in the pipeline. Please do let us know if
+          you&apos;ve got a favourite you&apos;d like us to prioritize.
         </p>
       </div>
     </section>
