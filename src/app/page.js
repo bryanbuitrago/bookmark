@@ -4,6 +4,7 @@ import FaqAccordionSection from '@/components/faq/FaqAccordionSection';
 import FaqHeadingSection from '@/components/faq/FaqHeadingSection';
 import FeaturesHeadingSection from '@/components/features/FeaturesHeadingSection';
 import FeaturesSection from '@/components/features/FeaturesSection';
+import Footer from '@/components/footer/Footer';
 import HeroSection from '@/components/hero/HeroSection';
 import NavBar from '@/components/navbar/NavBar';
 import NewsletterSection from '@/components/newsletter/NewsletterSection';
@@ -19,6 +20,7 @@ export default function Home() {
       <FaqHeadingSection />
       <FaqAccordionSection />
       <NewsletterSection />
+      <Footer />
     </main>
   );
 }
