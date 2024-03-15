@@ -5,7 +5,7 @@ const FooterLogoAndMenu = () => {
   return (
     <>
       <Image
-        src='/bookmark-web-app/images/logo-bookmark-footer.svg'
+        src='/images/logo-bookmark-footer.svg'
         alt='Bookmark Logo'
         width={200}
         height={200}
