@@ -6,7 +6,7 @@ const HeroImage = () => {
       alt='hero'
       width={500}
       height={500}
-      className='relative z-10 lg:top-24 xl:top-0 overflow-x-hidden'
+      className='relative z-10 lg:top-24 xl:top-0 overflow-x-visible'
     />
   );
 };
