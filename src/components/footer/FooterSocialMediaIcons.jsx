@@ -6,7 +6,7 @@ const FooterSocialMediaIcons = () => {
     <>
       <Link href='#'>
         <Image
-          src='/bookmark-web-app/images/icon-facebook.svg'
+          src='/images/icon-facebook.svg'
           alt='Facebook'
           width={24}
           height={24}
@@ -15,7 +15,7 @@ const FooterSocialMediaIcons = () => {
       </Link>
       <Link href='#'>
         <Image
-          src='/bookmark-web-app/images/icon-twitter.svg'
+          src='/images/icon-twitter.svg'
           alt='Twitter'
           width={24}
           height={24}
