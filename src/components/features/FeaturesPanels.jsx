@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { PANELS_DATA } from './data';
+import { PANELS_DATA } from './featuresData';
 
 const FeaturesPanels = ({ activePanel }) => {
   //  Show or hide panel based on activePanel
