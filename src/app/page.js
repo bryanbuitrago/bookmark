@@ -6,6 +6,7 @@ import FeaturesHeadingSection from '@/components/features/FeaturesHeadingSection
 import FeaturesSection from '@/components/features/FeaturesSection';
 import HeroSection from '@/components/hero/HeroSection';
 import NavBar from '@/components/navbar/NavBar';
+import NewsletterSection from '@/components/newsletter/NewsletterSection';
 export default function Home() {
   return (
     <main>
@@ -17,6 +18,7 @@ export default function Home() {
       <DownloadBoxesSection />
       <FaqHeadingSection />
       <FaqAccordionSection />
+      <NewsletterSection />
     </main>
   );
 }
