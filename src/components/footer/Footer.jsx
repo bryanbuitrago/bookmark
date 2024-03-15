@@ -15,6 +15,9 @@ const Footer = () => {
                      font-light md:flex-row md:space-y-0 md:space-x-14 text-grayishBlue'
         >
           <FooterLogoAndMenu />
+        </div>
+        {/* Social Media Icons Container */}
+        <div className='flex space-x-10'>
           <FotterSocialMediaIcons />
         </div>
       </div>
